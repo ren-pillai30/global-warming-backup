@@ -1,0 +1,11 @@
+# FIgLib imagery -- ~87 MB per sequence, re-fetch with download_figlib.py
+data/
+
+# Method figures ARE committed (small, and report/ links to them); regenerate with
+# make_method_figures.py. Only the notebook's training-run outputs are ignored.
+figures/fig4_gradcam.png
+figures/fig5_detection_vs_time.png
+results_summary.csv
+
+.ipynb_checkpoints/
+__pycache__/

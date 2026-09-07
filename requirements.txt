@@ -1,0 +1,8 @@
+# Colab already has torch/torchvision/numpy/pandas/matplotlib/pillow/scipy.
+# Only these two need installing there (the notebook's first cell does it for you).
+datasets>=2.14
+scikit-learn>=1.3
+
+# Running outside Colab? You also need:
+#   torch>=2.0  torchvision>=0.15  numpy  pandas  matplotlib  pillow  scipy
+# download_figlib.py and test_pipeline.py need no third-party packages beyond numpy+pandas.
